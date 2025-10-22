@@ -8,7 +8,7 @@ describe('MastercardContext', () => {
     const config = { ...require('./__res__/config.json').mastercard };
     config.encryptionConfig = null;
     const ctx = new MastercardContext(context({ config }));
-
+// test
     assert.strictEqual(ctx.encryptionConfig, undefined);
   });
 
